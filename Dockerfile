@@ -1,5 +1,5 @@
-FROM wetransform/dockup:latest
-MAINTAINER Simon Templer <simon@wetransform.to>
+FROM santuvy/dockup:latest
+MAINTAINER santosh vytla <santu.vytla@gmail.com>
 
 # install MongoDB shell & tools
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927 && \
