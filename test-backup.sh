@@ -1,12 +1,12 @@
 #!/bin/bash
 #
 # Simple test script for backup and restore
-# 
+#
 # Before running it, ensure there is a file test-env.txt
 # with configuration options as in test-env.txt.sample
 
 # build dockup image
-docker build -t wetransform/dockup-mongo:local .
+docker build -t santuvy/dockup-mongo:local .
 
 MONGODB_PASS="supersecret"
 MONGODB_USER="admin"
